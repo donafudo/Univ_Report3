@@ -12,7 +12,7 @@ class EnemyTest {
         Hero hero=new Hero("tanaka",10,4);
         int hp=hero.hitPoint;
 
-        enemy.hitPoint=0;
+        enemy.hitPoint=-1;
         for(int i=0;i<5;i++){
             enemy.attack(hero);
         }
